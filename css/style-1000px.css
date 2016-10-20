@@ -1,0 +1,151 @@
+/*
+	Strongly Typed 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		line-height: 1.75em;
+		font-size: 12pt;
+	}
+
+	h2
+	{
+		margin: 0 0 1em 0;
+	}
+
+	h3
+	{
+		margin: 0 0 1em 0;
+	}
+
+	h2 br, h3 br, h4 br, h5 br, h6 br
+	{
+		display: none;
+	}
+
+	/* Images */
+
+		.image
+		{
+		}
+
+			.image-full
+			{
+				margin: 0 0 2.5em 0;
+			}
+			
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+	}
+
+	#features-wrapper
+	{
+		padding: 4em 0 4em 0;
+	}
+	
+	#banner-wrapper
+	{
+		padding: 2em 0 2em 0;
+	}
+	
+	#footer-wrapper
+	{
+		padding: 2em 0 0em 0;
+		margin-top: 2em;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#page_1_container .menu_item, #page_2_container .menu_item
+{
+	height: 10em;
+}
+
+.menu_item.right_float.fries_and {
+	height: auto !important;
+}
+
+.menu_item.can_has_cheese{
+	margin-top: 0px;
+}
+
+#cart_breakfast, #sandwiches {
+	margin-top: 0em !important;
+}
+
+.menu_item.no_image.small {
+	height: 5em !important;
+}
+
+.loaded ul li {
+	height: 5em !important;
+}
+
+
+.left_item_half .menu_item {
+	width: 100%;
+}
+
+.no_image.small_menu_item {
+	height: 6em !important;
+}
+
+
+.and_more {
+	margin-top: 0 !important;
+}
+
+.no_image.verbose, .verbose_neighbor {
+	height: 11em !important;
+}
+
+.half.last_item {
+	height: 8em !important;
+}
+
+.no_bottom_margin .menu_item{
+	margin-bottom: 0px !important;
+}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+	}
+
+		#nav > ul > li
+		{
+			padding-right: 1.25em;
+		}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+	
+	#banner
+	{
+		padding: 7em 0 7em 0;
+	}
+		
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		padding: 2em 11.9em;
+	}

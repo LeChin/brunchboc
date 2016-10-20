@@ -1,0 +1,312 @@
+/* CSS Document */
+
+
+#index_bg {
+	background:url(/images/brunchboxpdx_index_image.png) no-repeat;
+	width: 970px;
+	height:571px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+#mainbox {
+	background-color: #EAE8DF;
+	width: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#mainbox-box {
+	 margin: 0px 5%;
+	 padding: 4px 8px;
+}
+
+#mainbox p {
+  font-family: verdana, arial, sans-serif;
+  font-size: 11px;
+  margin: 8px 0;
+  overflow: hidden;
+  line-height: 1.7em
+
+}
+
+span.twitter_text {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: #0D3B52;
+	padding: 365px 0px 0px 560px;
+}
+#twitter {
+	width: 970px;
+	height:571px;
+	padding: 85px 0px 0px 450px;
+}
+
+/* rss */
+
+.rss-box {
+	margin: 0px 5%;
+	padding: 125px 0px 5px 0px;
+	display: block;
+    clear: both;	 
+}
+
+.rss-title, rss_title a {
+	font-family: "American Typewriter", "Trebuchet MS", Trebuchet, Lucida, sans-serif;
+	font-size: 12px;
+	margin: 5px 0;
+	padding: 0;
+	letter-spacing: 1px;
+}
+
+.rss-items {
+  
+}
+
+.rss-item  {
+  font-family: verdana, arial, sans-serif;
+  font-size: 11px;
+  margin: 8px 0;
+  overflow: hidden;
+  line-height: 1.7em;  
+}
+
+.rss-item a:link, .rss-item a:visited, .rss-item a:active {
+	text-decoration : none;
+	border-bottom: 1px solid #0C3952;
+	color: #0C3952;
+	font-weight : bold;
+	font-size: 14px; 
+	}
+
+.rss-item a:hover { 
+	text-decoration : none;
+	color: #0C3952;
+	border-bottom: 1px dotted #0C3952;
+	}
+	
+.rss-date {
+	font-size: 11px;
+	font-weight : normal;
+	color: #F60;
+	}
+
+.pod-play-box {
+	margin: 4px 0;
+	font-size:90%;
+}
+
+
+/* buttons */
+
+.pod-play {
+   _width:12em;
+   margin: 0 0.2em; padding: 0.1em 0; _padding:0;
+   white-space:nowrap;
+   text-decoration: none;
+   vertical-align:middle;
+   background: #fb6;
+   color: black;
+   }
+.pod-play em {
+   _width:1em; _cursor:hand;
+   font-style: normal;
+   margin:0; padding: 0.1em 0.5em;
+   background: white;
+   color: #222;
+   }
+.pod-play span {
+   _width:1em; _cursor:hand;
+   margin:0; padding: 0.1em 0.5em 0.1em 0.3em;
+   }
+.pod-play:hover {
+   background: #666;
+   color: white;
+   }
+.pod-play:hover em {
+   background: black;
+   color: white
+   }
+
+/* menu page */
+
+#menuPDF {
+	background: url(/images/pdfmenu-header.png) no-repeat;
+	width: 217px;
+	height:50px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+#menuPDF a {
+	display: block;
+	background: url(/images/pdfmenu-header.png) no-repeat;
+	width: 217px;
+	height:50px;
+	border: 0px;
+}
+
+#menuPDF a span {
+	display: none;
+}
+
+
+#menubox {
+	background:url(/images/menu-bg.jpg) no-repeat;
+	width: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#menu1 {
+	background: url(/images/door-1-2012.jpg) no-repeat;
+	width: 900px;
+	height: 1661px;
+	margin: 0px auto 0px auto;	
+}
+
+#menu1 span {
+	display: none;
+}
+
+#menu2 {
+	background: url(/images/door-2-2012.jpg) no-repeat;
+	width: 900px;
+	height: 1645px;
+	margin: 0px auto 0px auto;	
+}
+
+#menu2 span {
+	display: none;
+}
+
+
+#bbox {
+	margin: 0px 5%;
+	padding: 125px 0px 5px 0px;
+	display: block;
+    clear: both;	 
+}
+
+#bbox p {
+  font-family: verdana, arial, sans-serif;
+  font-size: 11px;
+  margin: 8px 0px 10px 0px;
+  overflow: hidden;
+  line-height: 1.7em
+}
+
+#bbox h1 {
+  font-family: verdana, arial, sans-serif;	
+  color: #0c3952;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0px 0px 10px 0px;
+}
+
+#bbox b {
+  font-family: verdana, arial, sans-serif;	 
+  font-weight: bold;
+  font-size: 14px;
+  color: #c7940b; 
+}
+
+/* blog page */
+
+#blogbox {
+	background:url(/images/blog-bg.jpg) no-repeat;
+	width: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* about page */
+
+#aboutbox {
+	background:url(/images/about-bg.jpg) no-repeat;
+	width: 1000px;
+	height:586px;	
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#bbox p {
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+	width: 350px;
+    margin: 8px 0px 10px 0px;
+    overflow: hidden;
+    line-height: 1.7em
+}
+
+
+/* find us page */
+
+#findbox {
+	background:url(/images/find-bg.jpg) no-repeat;
+	width: 1000px;
+	height:586px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+/* stuff page */
+
+#stuffbox {
+	background:url(/images/stuff-bg.jpg) no-repeat;
+	width: 1000px;
+	height:586px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+/* media page */
+
+#mediabox {
+	background:url(/images/media-bg.jpg) no-repeat;
+	width: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+#press {
+	background: url(/images/pressrelease-header.png) no-repeat;
+	width: 217px;
+	height:50px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+#press a {
+	display: block;
+	background: url(/images/pressrelease-header.png) no-repeat;
+	width: 217px;
+	height:50px;
+	border: 0px;
+}
+
+#press a span {
+	display: none;
+}
+/* reviews page */
+
+#reviewsbox {
+	background:url(/images/review-bg.jpg) no-repeat;
+	width: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#reviewsbox p {
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+	width: 725px;
+    margin: 8px 0px 2px 0px;
+    overflow: hidden;
+    line-height: 1.7em
+}

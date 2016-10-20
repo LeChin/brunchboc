@@ -1,0 +1,80 @@
+/* CSS Document */
+
+
+* {
+	margin-top: 0pt;
+	margin-right: 0pt;
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	padding-top: 0pt;
+	padding-right: 0pt;
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+}
+
+body {
+	background-image: url("/images/brunchboxpdx_background_1.jpg");	
+	background-repeat: repeat;
+}
+
+#wrapper {
+	padding-top: 0pt;
+	padding-right: 0px;
+	padding-bottom: 0pt;
+	padding-left: 0px;
+	height: 600px;
+	background-color: transparent;
+	background-image: url("/images/brunchboxpdx_background_top.jpg");
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: 0pt 0pt;
+
+}
+
+#nav {
+	background-color: #eae8df;	
+	width: 1000px;
+	height: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#navlogo {
+	display: block;
+	background:url(/images/brunchboxpdx_top_tag.png) no-repeat;
+	width: 472px;
+	height:50px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#navlogo span {
+	display: none;
+}
+
+/* ROLL OVERS */
+
+#main_nav { list-style: none; 
+	width: 391px;
+	height: 18px;
+	margin: 0px 0px 0px 0px;
+	padding: 23px 0px 0px 38px;
+	display:block;
+	float: none;
+ }
+
+#main_nav:hover li a { background-position: 0x; }
+
+#main_nav li { float: left; }
+#main_nav li a { text-indent: -999999px; overflow: hidden; display: block; height: 18px; } 
+
+#home { background: url(/images/nav_home.png); width: 62px; }
+#menu { background: url(/images/nav_menu.png); width: 75px; }
+#reviews { background: url(/images/nav_review.png); width: 98px; }
+#find { background: url(/images/nav_find.png); width: 91px; }
+#media { background: url(/images/nav_media.png); width: 65px; }
+
+
+#main_nav .clearit {
+	clear:both;
+}

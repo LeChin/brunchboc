@@ -1,0 +1,23 @@
+/* CSS Document */
+
+#footer {
+	width: 1000px;
+	height: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#footer p {
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	text-align: center;
+	letter-spacing: 0.1em; 
+	color: #FFFFFF;
+	line-height: 3.0em;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#footer a {
+	color: #CCCCCC;
+}

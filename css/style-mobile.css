@@ -1,0 +1,649 @@
+/*
+	Strongly Typed 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body,input,textarea,select
+	{
+		line-height: 1.75em;
+		font-size: 11pt;
+		letter-spacing: 0;
+	}
+
+	body
+	{
+	}
+
+	h2, h3, h4, h5, h6
+	{
+		font-size: 1.2em;
+		letter-spacing: 2px;
+		text-align: center;
+		margin: 0;
+	}
+
+	h2 br, h3 br, h4 br, h5 br, h6 br
+	{
+		display: none;
+	}
+
+	/* Sections/Articles */
+	
+		section,
+		article
+		{
+			clear: both;
+			margin: 2em 0 0em 0 !important;
+		}
+
+		section > :first-child,
+		article > :first-child
+		{
+			margin-top: 0 !important;
+		}
+
+		section:first-child,
+		article:first-child
+		{
+			margin-top: 0 !important;
+		}
+
+	/* Images */
+
+		.image
+		{
+		}
+			
+			.image-left
+			{
+				width: 40%;
+			}
+			
+			.image-full
+			{
+				margin: 0 0 2em 0;
+			}
+
+	/* Buttons */
+		
+		.button
+		{
+			letter-spacing: 2px;
+			display: block;
+			padding: 1em 0 1em 0;
+		}
+
+	/* Lists */
+
+		ul.links
+		{
+		}
+
+			ul.links li
+			{
+				border: 0;
+				padding: 0.25em 0 0 0;
+				margin: 0;
+			}
+
+		ul.divided
+		{
+		}
+
+			ul.divided li
+			{
+				margin: 2.75em 0 0 0;
+				padding: 2.75em 0 0 0;
+			}
+
+		ul.icons
+		{
+			padding: 0 !important;
+			margin: 0 0 0.5em 0 !important;
+		}
+
+	/* Forms */
+
+		form
+		{
+		}
+		
+			form input.text,
+			form select,
+			form textarea
+			{
+			}
+
+/*********************************************************************************/
+/* UI                                                                            */
+/*********************************************************************************/
+
+	#titleBar
+	{
+	}
+
+		#titleBar .toggle
+		{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 80px;
+			height: 60px;
+		}
+
+			#titleBar .toggle:before
+			{
+				content: '';
+				display: block;
+				width: 60px;
+				height: 40px;
+				background: rgba(232,232,232,0.9);
+				border-radius: 4px;
+				position: absolute;
+				left: 5px;
+				top: 5px;
+				box-shadow: 0.125em 0.125em 0 0 rgba(0,0,0,0.15);
+			}
+
+			#titleBar .toggle:after
+			{
+				content: '';
+				display: block;
+				width: 20px;
+				height: 12px;
+				position: absolute;
+				left: 25px;
+				top: 20px;
+				opacity: 0.35;
+			}
+
+			#titleBar .toggle:active:after
+			{
+				opacity: 0.5;
+			}
+
+	#navPanel
+	{
+		background: #444;
+		border-right: solid 2px #3c3c3c;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #888;
+		letter-spacing: 2px;
+		font-size: 0.85em;
+	}
+
+		#navPanel .link
+		{
+			display: block;
+			color: #ddd;
+			text-decoration: none;
+			height: 44px;
+			line-height: 44px;
+			border: 0;
+			border-top: solid 1px #3c3c3c;
+			padding: 0 1em 0 1em;
+		}
+		
+			#navPanel .link:first-child
+			{
+				border-top: 0;
+			}
+			
+			#navPanel .link.depth-0
+			{
+				font-weight: 600;
+				color: #fff;
+			}
+
+			#navPanel .indent-1 { display: inline-block; width: 1em; }
+			#navPanel .indent-2 { display: inline-block; width: 2em; }
+			#navPanel .indent-3 { display: inline-block; width: 3em; }
+			#navPanel .indent-4 { display: inline-block; width: 4em; }
+			#navPanel .indent-5 { display: inline-block; width: 5em; }
+			#navPanel .depth-0 { color: #fff; }
+
+/*********************************************************************************/
+/* Section/Article Types                                                         */
+/*********************************************************************************/
+
+	.is-post
+	{
+	}
+
+	.is-feature
+	{
+	}
+	
+	.is-excerpt
+	{
+	}
+	
+		.is-excerpt .date
+		{
+			display: block;
+			letter-spacing: 2px;
+			padding: 0.25em 1em 0.25em 1em;
+			margin: 0 auto 2.5em auto;
+			text-align: center;
+		}
+	
+	.is-highlight
+	{
+	}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		padding: 0 20px 0 20px;
+	}
+
+	#features-wrapper
+	{
+		padding: 3em 20px 3em 20px;
+	}
+	
+	#banner-wrapper
+	{
+		padding: 2em 0 2em 0;
+	}
+	
+	#main-wrapper
+	{
+		padding: 1em 20px 0 20px;
+	}
+	
+	#footer-wrapper
+	{
+		padding: 4em 20px 3em 20px;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+	}
+	
+		#header h1
+		{
+			font-size: 2em;
+			letter-spacing: 8px;
+			line-height: 1.25em;
+			margin-bottom: 0px;
+		}
+		
+		#header p
+		{
+			margin: 1.25em 0 0 0;
+			letter-spacing: 2px;
+		}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+		display: none;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+	
+	#banner
+	{
+		padding: 5em 20px 5em 20px;
+		margin: 0 !important;
+	}	
+
+		#banner p
+		{
+			font-size: 1.75em;
+			line-height: 1.25em;
+			letter-spacing: 3px;
+		}
+		
+			#banner p br
+			{
+				display: none;
+			}
+	
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+	
+	#content
+	{
+	}
+
+		#content > section,
+		#content > article
+		{
+			margin: 4em 0 0 0 !important;
+			padding: 4em 0 0 0 !important;
+		}
+		
+		#content > section:first-child,
+		#content > article:first-child
+		{
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+	
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+	
+	#sidebar
+	{
+		border-top: solid 2px #e5e5e5;
+		box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+		margin-top: 4em !important;
+		padding-top: 4em !important;
+	}
+
+		#sidebar > section,
+		#sidebar > article
+		{
+			margin: 4em 0 0 0 !important;
+			padding: 4em 0 0 0 !important;
+		}
+		
+		#sidebar > section:first-child,
+		#sidebar > article:first-child
+		{
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		margin-top: 2em;
+		padding-top: 2em;
+	}
+
+
+	.menu_item.left_menu_item, .half.left_only .menu_item, .menu_item {
+		margin-left: 0;
+		width: auto;
+		height: auto !important;
+	}
+
+	.half.left_only, .menu_item.right_float {
+		width: 100%;
+		margin: 0;
+	}
+
+	#sandwiches, #bfast, #byob_link_image, #logo img, img.half {
+		width: 100%;
+	}
+
+	.menu_item img {
+		width: 30%;
+		height: auto !important;
+	}
+
+	.menu_item h3, .menu_item p {
+		clear: both;
+		margin:  0 0 10px 0;
+		text-align: left;
+	}
+
+	.menu_item {
+		text-align: center;
+		width: 100% !important;
+	}
+
+	.menu_item.double_down {
+		border-bottom: 2px solid #838484;
+	}
+
+	.menu_item.no_image {
+		height: auto !important;
+		/*height: 9em !important;*/
+	}
+
+	.menu_item img {
+		float: none;
+	}
+
+	.menu_item.right_float img {
+		margin-left: -11px;
+	}
+
+	.loaded ul li {
+		height: auto !important;
+		/*height: 8.9em;*/
+	}
+
+	.loaded ul li.first {
+		height: auto !important;
+		/*height: 7.4em;*/
+	}
+
+	.menu_item.right_float .menu_item.no_image.no_top_padding {
+		/*height: 10em !important;*/
+		height: auto !important;
+	}
+
+	.menu_item.right_float ul {
+		margin-left: 0px;
+	}
+
+	.no_top_padding {
+		height: 11em !important;
+		margin-top: 20px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+
+	.left_item_half 
+	{
+		width: 100%;
+	}
+
+	.small_menu_item {
+		height: 5em !important;
+	}
+
+	.menu_item.right_float.loaded {
+		margin-top: 0px;
+	}
+	/* HOME PAGE*/
+
+	#slides {
+		height: 160px !important;
+	}
+
+	.slidesjs-container {
+		height: 200px;
+	}
+
+	.slider_container {
+		height: 160px !important;
+	}
+
+	.slidesjs-navigation, .slidesjs-pagination {
+		display: none;
+	}
+
+	#homepage_container {
+		width: 100%;
+	}
+
+	.menu_link img {
+		width: 100% !important;
+	}
+
+	.no_mobile_top_border {
+		border-top: none !important;
+	}
+
+	.menu_link#left, .menu_link {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+
+	#map img {
+		/*background: url('../images/map_320.png') 0px 120px;*/
+		height: 120px;
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 10.5em;
+	}
+
+	#restaurant_map_link, #cart_map_link {
+		height: 50px;
+		width: 100px;
+	}
+
+	#restaurant_map_link {
+		left: 50px;
+		top: -92px;
+	}
+
+	#cart_map_link {
+		left: 175px;
+		top: -50px;
+	}
+
+	#map_link {
+		height: 105px;
+	}
+
+	.order_item.left_menu_item {
+		margin: 0px !important;
+	}
+
+	#ppp_logo,
+	#postmates_logo {
+		width: 150px;
+	}
+
+	#we_take_out {
+		margin-bottom: 0;
+	}
+
+	#we_take_out img {
+		width: 81% !important;
+		display: block;
+		margin: 0 auto;
+		margin-top: 1em;
+	}
+
+	#we_take_out p {
+		width: 79%;
+		margin: 0 auto;
+		margin-top: 1.5em;
+	}
+
+	#twitter_feed {
+		float: none;
+		width: 100%;
+		padding: 0 20%;
+	}
+
+	#footer-wrapper {
+		padding-top: 0px;
+		margin-top: 11em !important;
+	}
+
+	#footer-wrapper.not_home_page {
+		margin-top: 1em !important;
+	}
+
+	img.social {
+		width: 30px;
+		margin-top: 15px;
+	}
+
+	#copyright {
+		margin-top: 0px;
+		padding: 2em 3px;
+	}
+
+	.copy {
+		display: block;
+		margin: -24px 0 9px 0;
+		float: none;
+	}
+
+	ul.links {
+		display: block;
+		width: 100%;
+		margin-top: -1.4em !important;
+	}
+
+	#ppp_right {
+		text-align: center;
+	}
+
+	.thai_bacon {
+		height: auto !important;
+		margin: 0 !important;
+	}
+
+	.section {
+		margin-bottom: 0px !important;
+		margin-top: 0px !important;
+	}
+
+	img#burgerz, img#sandwiches, img#bfast {
+		margin: 0 !important;
+	}
+
+	.menu_item.and_more {
+		margin: 0 !important;
+		height: auto !important;
+	}
+
+	.can_has_cheese {
+		margin-top: 1em !important;
+	}
+
+	.half.tall_half {
+		height: auto !important;
+	}
+
+	.menu_item.no_image.verbose {
+		height: auto !important;
+	}
+
+	.cart_verbose {
+		height: auto !important;
+	}
+
+	.half.last_item {
+		height: auto !important;
+	}
+
+	.half.restaurant_last_item.last_item {
+		height: auto !important;
+	}
+
+	.left_float {
+		width: 100% !important;
+	}
+
+	.menu_item.right_float ul {
+		text-align: left;
+	}
+
+	.row:not(.no-collapse):not(.no-collapse-1):not(.no-collapse-2):not(.no-collapse-3) {
+		overflow-x: visible;
+	}

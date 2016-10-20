@@ -1,0 +1,140 @@
+/* CSS Document */
+
+#subbox {
+	background-color: #0D3B52;	
+	width: 1000px;
+	height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 0px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius:  20px; 		 
+}
+
+#subbox p {
+	font-family: Arial, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.3em; 
+	color: #FFFFFF;
+	float: center;
+	line-height: 3.0em;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* box 1 */
+
+#box1 {
+	width: 250px;
+	height: 200px;	
+	display: block;	
+	float: left;
+    margin-left: 100px;
+    margin-right: 0px; 	
+}
+
+div.box1_logo {
+	background: url(/images/BB-logo.png) 0 0 no-repeat;
+	height: 153px;
+	width: 165px;
+	overflow: hidden;
+	margin: 15px 0px 0px 0px;	
+
+}
+
+div.box1_logo h1 {
+	display: none;
+}
+
+/* box 2 */
+
+/* ACCESSIBLE ROLL OVERS */
+#link_buttons li { float: left; }
+#link_buttons li a { text-indent: -999999px; overflow: hidden; display: block; height: 43px; } 
+#link_buttons:hover li a { background-position: 0 -43px; }
+
+#email { background: url(/images/bb-icon-email.png); width: 46px; }
+#email:hover { background: url(/images/bb-icon-email.png) 0 0 !important; }
+#email.active { background: url(/images/bb-icon-email.png) 0 -43px; }
+
+#witter { background: url(/images/bb-icon-twitter.png); width: 47px; }
+#witter:hover { background: url(/images/bb-icon-twitter.png) 0 0 !important; }
+#witter.active { background: url(/images/bb-icon-twitter.png) 0 -43px; }
+
+#facebook { background: url(/images/bb-icon-fb.png); width: 48px; }
+#facebook:hover { background: url(/images/bb-icon-fb.png) 0 0 !important; }
+#facebook.active { background: url(/images/bb-icon-fb.png) 0 -43px; }
+
+#google { background: url(/images/bb-icon-google.png); width: 48px; }
+#google:hover { background: url(/images/bb-icon-google.png) 0 0 !important; }
+#google.active { background: url(/images/bb-icon-google.png) 0 -43px; }
+
+#link_buttons .clearit {
+	clear:both;
+}
+
+div.box2  { list-style: none; 
+	width: 325px;
+	display: block;	
+	float: left;
+	margin: 35px 0px 0px 0px;			
+}
+
+div.box2 ul {
+	float: none;
+	height: auto;
+	line-height: auto;
+}
+
+div.box2 ul li {
+	line-height: 1.2em;
+	margin-left: 10px;
+	margin-right: 2px;
+	padding: 1px 0 2px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	color: #FFFFFF;
+	line-height: 1.2em;		
+	overflow: hidden;
+}
+
+div.box2 ul li a {
+	text-decoration : none;
+	border-bottom: 1px solid #FFFFFF;
+	color: #CCCCCC;
+}
+
+div.box2 h4 {
+	background:url(/images/BB-hours.png) 0 0 no-repeat;
+	height: 18px;
+	width: 68px;
+	text-indent: -999%;
+	overflow: hidden;
+}
+
+div.box2 h5 {
+	background:url(/images/BB-connect.png) 0 0 no-repeat;
+	height: 18px;
+	width: 84px;
+	text-indent: -999%;
+	overflow: hidden;
+	margin: 5px 0px 0px 0px;		
+}
+
+/* box 3 */
+
+#box3 {
+	width: 150px;
+	height: 180px;	
+	display: block;
+	float: left;
+	margin: 15px 0px 0px 0px;			
+}
+#box3 a {
+    position: relative;
+    top: 1px;
+    z-index: 2;
+    color: #fff;
+	opacity: 1;
+	filter: alpha(opacity = 100);
+}

@@ -1,0 +1,81 @@
+/* CSS Document */
+
+
+#index_bg {
+	background:url(/images/brunchboxpdx_index_image-3.png) no-repeat;
+	width: 970px;
+	height:571px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+#alert {
+	background: url(/images/menu-header.png) no-repeat;
+	width: 217px;
+	height:50px;
+	float:left;
+}
+
+#alert  a {
+	display: block;
+	background: url(/images/menu-header.png) no-repeat;
+	width: 217px;
+	height:50px;
+	border: 0px;
+}
+
+#alert a span {
+	display: none;
+}
+
+#mac {
+	background: url(/images/mac-header.png) no-repeat;
+	width: 217px;
+	height:50px;
+float:right;	
+}
+
+#mac a {
+	display: block;
+	background: url(/images/mac-header.png) no-repeat;
+	width: 217px;
+	height:50px;
+	border: 0px;
+}
+
+#mac a span {
+	display: none;
+}
+
+#mainbox {
+	background-color: #EAE8DF;
+	width: 1000px;
+	height: 600px;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+#mainbox p {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: #0D3B52;
+	float: left;
+	width: 390px;
+	line-height: 2.0em;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 600px;
+}
+
+span.twitter_text {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: #0D3B52;
+	padding: 365px 0px 0px 560px;
+}
+#twitter {
+	width: 970px;
+	height:571px;
+	padding: 85px 0px 0px 450px;
+}

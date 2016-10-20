@@ -1,0 +1,138 @@
+#slides {
+  display: none;
+  height: 360px;
+}
+
+#slides img {
+  width: 100%;
+  max-width: 1000px;
+}
+
+#slides .slidesjs-navigation {
+  margin-top:3px;
+}
+
+
+#slides .slidesjs-previous {
+  border: none !important;
+  border-image: none !important;
+}
+
+#slides .slidesjs-next {
+  border: none !important;
+  border-image: none !important;
+}
+
+#slides i {
+  font-size: 30px;
+  color: #d1d3d4;
+}
+
+.slider_container{
+  height: 360px;
+}
+
+.slidesjs-container {
+  height: 330px !important;
+}
+
+.slidesjs-navigation {
+  position: absolute;
+}
+
+.slidesjs-pagination {
+  display: none;
+}
+
+/* RESPONSIVE */
+
+#slides {
+  display: none;
+  position: relative;
+}
+
+/* For tablets & smart phones */
+@media (max-width: 767px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .slider_container {
+    width: auto
+  }
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+  .slider_container {
+    width: auto
+  }
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+  .slider_container {
+  }
+}
+
+@media (min-width: 1194px) and (max-width: 1194px) {
+  #slides .slidesjs-previous {
+    border: none;
+  }
+
+  #slides .slidesjs-next {
+    right: 0px;
+    border: none;
+  }
+}
+
+/* For larger displays */
+@media (min-width: 600px) and (max-width: 1199px) {
+  .slidesjs-control {
+    width: 745px !important;
+    margin: 0 auto;
+    height: 380px !important;
+  }
+  #slides .slidesjs-previous {
+    top: 40%;
+    border: none;
+  }
+
+  #slides .slidesjs-next {
+    top: 40%;
+    right: 0px;
+    border: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slidesjs-control {
+    width: 966px !important;
+    margin: 0 auto;
+    height: 423px !important;
+  }
+  #slides {
+    height: auto;
+  }
+  .slider_container {
+    height: 460px;
+  }
+
+  .slidesjs-container {
+    height: 420px !important;
+  }
+
+  .slidesjs-navigation{
+    display: none;
+    top: 40%;
+  }
+
+
+  .slidesjs-next {
+    right: 50px;
+  }
+
+  .slidesjs-previous {
+    left: 50px;
+  }
+}
