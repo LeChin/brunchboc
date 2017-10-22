@@ -464,6 +464,7 @@
 	.menu_item.right_float.loaded {
 		margin-top: 0px;
 	}
+
 	/* HOME PAGE*/
 
 	#slides {
@@ -530,9 +531,18 @@
 		margin: 0px !important;
 	}
 
+	/* Delivery */
+
+	.delivery_row .delivery_items {
+		width: 100%;
+		float: none;
+	}
+
 	#ppp_logo,
-	#postmates_logo {
+	#postmates_logo,
+	#amazon_logo {
 		width: 150px;
+		height: auto;
 	}
 
 	#we_take_out {
@@ -587,10 +597,6 @@
 		display: block;
 		width: 100%;
 		margin-top: -1.4em !important;
-	}
-
-	#ppp_right {
-		text-align: center;
 	}
 
 	.thai_bacon {

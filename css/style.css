@@ -1356,10 +1356,6 @@
 			margin-bottom: 1em;
 		}
 
-		#ppp_right {
-			width: 100%;
-		}
-
 		.menu_item h3, .and_more ul li, .loaded ul li, .fries_and ul li
 		{
 			color: #0f2c4e;
@@ -1620,16 +1616,48 @@
 	color: #fff;
 }
 
+/* Delivery */
+
+.delivery_row {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	height: auto;
+	padding: 0 0 1em 0;
+	margin-bottom: 1em;
+}
+
+.delivery_row hr {
+	border: 2px solid #00b5ef;
+}
+
+.delivery_row h3.cufon_larger {
+	color: #0f2c4e;
+	font-size: 20px;
+	letter-spacing: 0;
+	font-family: 'DinnBold', Helvetica, Arial, sans-serif;
+}
+
+.delivery_row .delivery_items {
+	width: 33%;
+	float: left;
+}
+
 #ppp_logo,
-#postmates_logo {
-	width: 40%;
+#postmates_logo,
+#amazon_logo {
+	width: 165px;
 	float: none;
 	margin-top: 1em;
 	height: auto;
 }
 
 #postmates_logo {
-	width: 50%;
+	margin-top: 0;
+}
+
+#amazon_logo {
+	margin-top: 20px;
 }
 
 #map_link {
